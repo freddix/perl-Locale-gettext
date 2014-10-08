@@ -6,7 +6,7 @@
 Summary:	Locale::gettext Perl module - message handling functions
 Name:		perl-Locale-gettext
 Version:	1.05
-Release:	15
+Release:	16
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
@@ -44,7 +44,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc README
 %{perl_vendorarch}/Locale/*
 %dir %{perl_vendorarch}/auto/Locale/gettext
-%{perl_vendorarch}/auto/Locale/gettext/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Locale/gettext/*.so
 %{_mandir}/man3/*
 
